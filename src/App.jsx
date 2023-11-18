@@ -6,7 +6,7 @@ import { person } from "./Author";
 function App() {
   return (
     <>
-      <Header />
+      <Header className="header"/>
       <div>
         <h1>{person.nama}</h1>
       </div>
