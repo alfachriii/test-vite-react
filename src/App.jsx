@@ -5,13 +5,15 @@ import { person } from "./Author";
 
 function App() {
   return (
-    <>
+    <div className="app">
       <Header className="header"/>
+      <div className="container">
       <div>
         <h1>{person.nama}</h1>
       </div>
       <img src={person.pic} alt="" />
-    </>
+      </div>
+    </div>
   );
 }
 
